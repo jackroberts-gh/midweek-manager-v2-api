@@ -1,7 +1,7 @@
 import * as express from 'express';
 import * as http from 'http';
 import * as bodyparser from 'body-parser';
-import { router } from './routes/users';
+import { router } from './routes/auth';
 import captains from './common/logger';
 import errorHandling from './common/error-handling';
 
